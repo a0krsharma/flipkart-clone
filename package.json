@@ -1,0 +1,26 @@
+{
+  "name": "flipkart-clone-root",
+  "version": "1.0.0",
+  "description": "Root package for Flipkart Clone e-commerce project",
+  "scripts": {
+    "dev": "cd my-react- && npm run dev",
+    "build": "cd my-react- && npm run build",
+    "preview": "cd my-react- && npm run preview",
+    "lint": "cd my-react- && npm run lint",
+    "deploy": "cd my-react- && npm run build && cd .. && firebase deploy"
+  },
+  "keywords": [
+    "e-commerce",
+    "flipkart",
+    "react",
+    "vite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@mui/icons-material": "^6.4.7",
+    "firebase": "^11.4.0",
+    "react-helmet-async": "^2.0.5"
+  }
+}
